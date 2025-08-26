@@ -1,6 +1,6 @@
 
 // import SQL from "../resources/images/project/sql.png";
-import Librarium from "../resources/images/project/librarium.png";
+import Librarium from "../resources/images/project/Librarium.png";
 import Git from "../resources/images/project/git.png";
 import Course from "../resources/images/project/course.png";
 

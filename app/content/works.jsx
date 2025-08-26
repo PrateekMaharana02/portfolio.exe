@@ -1,5 +1,5 @@
-import Uniqual from "../resources/images/works/uniqual.png";
-import SolGuruz from "../resources/images/works/solguruz.png";
+import Uniqual from "../resources/images/works/Uniqual.png";
+import SolGuruz from "../resources/images/works/SolGuruz.png";
 
 
 const works = [
