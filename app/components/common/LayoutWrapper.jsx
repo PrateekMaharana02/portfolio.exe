@@ -8,7 +8,7 @@ import { Analytics } from "@vercel/analytics/react";
 
 export default function LayoutWrapper({ children }) {
   const pathname = usePathname();
-  const is404 = !["/", "/guestbook", "/blog", "/projects"].includes(pathname);
+  const is404 = !["/", "/guestbook", "/blog", "/projects", "/achievement"].includes(pathname);
 
   return (
     <>

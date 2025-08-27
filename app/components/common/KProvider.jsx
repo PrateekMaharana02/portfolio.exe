@@ -9,7 +9,7 @@ import {
   KBarSearch,
 } from "kbar";
 import { useRouter } from "next/navigation";
-import { LuSearch, LuBook, LuUser, LuTarget, LuLayout } from "react-icons/lu";
+import { LuSearch, LuBook, LuUser, LuTarget, LuLayout, LuTrophy } from "react-icons/lu";
 import KResults from "./KResults";
 import socialLinks from "@/app/content/socialLinks";
 
@@ -18,40 +18,40 @@ const KProvider = ({ children }) => {
 
   const actions = [
     {
-      id: "blog",
-      name: "blog",
-      keywords: "blogs",
-      shortcut: ["b"],
-      perform: () => router.push("/blog"),
+      id: "about",
+      name: "About",
+      keywords: "about",
+      shortcut: ["A"],
+      perform: () => router.push("/"),
       section: "Pages",
-      icon: <LuLayout size={20} />,
+      icon: <LuUser size={20} />,
     },
     {
       id: "projects",
       name: "Projects",
       keywords: "projects creations apps repositories",
-      shortcut: ["p"],
+      shortcut: ["P"],
       perform: () => router.push("/projects"),
       section: "Pages",
       icon: <LuTarget size={19} />,
     },
     {
-      id: "guestbook",
-      name: "Guestbook",
-      keywords: "guestbook comments community wall",
-      shortcut: ["g"],
-      perform: () => router.push("/guestbook"),
+      id: "achievement",
+      name: "Achievement",
+      keywords: "achievements",
+      shortcut: ["E"],
+      perform: () => router.push("/achievement"),
       section: "Pages",
-      icon: <LuBook size={20} />,
+      icon: <LuTrophy size={20} />,
     },
     {
-      id: "about",
-      name: "About",
-      keywords: "about",
-      shortcut: ["a"],
-      perform: () => router.push("/"),
+      id: "blog",
+      name: "Blog",
+      keywords: "blogs",
+      shortcut: ["B"],
+      perform: () => router.push("/blog"),
       section: "Pages",
-      icon: <LuUser size={20} />,
+      icon: <LuLayout size={20} />,
     },
   ];
 
