@@ -21,7 +21,7 @@ export const metadata = {
     type: "website",
     images: [
       {
-        url: "",
+        url: "/pfp.jpeg",
         width: 800,
         height: 600,
         alt: "Arpit Maurya",
@@ -39,7 +39,7 @@ export const metadata = {
     site: "@arpitkm15",
     title: "Arpit Maurya",
     description: "A passionate Software Developer from India.",
-    images: "https://abhivarde.in/default-og-image.png",
+    images: "/pfp.jpeg",
   },
   instagram: {
     url: "https://www.instagram.com/arpitt_mauryaa",
