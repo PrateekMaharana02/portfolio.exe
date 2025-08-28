@@ -12,7 +12,7 @@ export const metadata = {
     default: "Arpit Maurya | Software Developer",
     template: "%s | Arpit Maurya",
   },
-  description: "A passionate Software Developer from India.",
+  description: "Arpit Maurya is a passionate Software Developer and Web Engineer from India, specializing in building modern web applications with React, Next.js, and JavaScript. Explore projects, blogs, and achievements.",
   openGraph: {
     title: "Arpit Maurya",
     description: "A passionate Software Developer from India.",
@@ -47,7 +47,7 @@ export const metadata = {
   robots: "index,follow",
   canonical: "https://arpitkm.xyz",
   keywords:
-    "Software Developer, Web Developer, Programmer, JavaScript, React, Next.js, Portfolio",
+    "Arpit Maurya, Software Developer, Web Developer, Programmer, JavaScript, React, Next.js, Portfolio, India, Frontend Developer, Full Stack Developer, arpitkm, arpitkm.xyz, arpit maurya portfolio, arpit maurya developer, arpit maurya github, arpit maurya linkedin, arpit maurya projects, arpit maurya blog",
   author: "Arpit Maurya",
 };
 
@@ -55,6 +55,26 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+        {/* Enhanced SEO: Structured Data for Google Knowledge Panel */}
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Arpit Maurya",
+          "url": "https://arpitkm.xyz",
+          "image": "https://arpitkm.xyz/pfp.jpeg",
+          "sameAs": [
+            "https://github.com/arpitkm15",
+            "https://www.linkedin.com/in/arpitkm15/",
+            "https://twitter.com/arpitkm15",
+            "https://www.instagram.com/arpitt_mauryaa"
+          ],
+          "jobTitle": "Software Developer",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "Freelance / Open Source"
+          },
+          "description": "Arpit Maurya is a passionate Software Developer and Web Engineer from India, specializing in React, Next.js, and modern web technologies."
+        }) }} />
         <link
           rel="icon"
           type="image/x-icon"

@@ -15,6 +15,15 @@ const achievements = [
     category: "Competition",
     link: "https://www.linkedin.com/posts/arpitkm_odoohackathon-odoohackathon2025-hackathon-activity-7363111973112217600-3_MX?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFVjRjYBAvJr0IMrju8aNkMgcqhJWuX71w0",
   },
+  {
+    id: 2,
+    icon: <FaMedal className="text-green-500" size={24} />,
+    title: "Open Source Contributor",
+    description: "Contributed to Git Aura by designing the modern and user-friendly sign-in page, ensuring a clean UI and seamless onboarding experience.",
+    date: "August 2025",
+    category: "Open Source",
+    link: "https://github.com/Anshkaran7/git-aura",
+  },
   
   /*{
     id: 2,
