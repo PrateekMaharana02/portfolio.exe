@@ -9,7 +9,6 @@ const headerNavLinks = [
   },
   { title: "Achievement", url: "/achievement", icon: <LuLayout color="#FFFFFF" /> },
   
-  
 ];
 
 export default headerNavLinks;

@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
-import socialLinks from "@/app/content/socialLinks";
+import socialLinks from "../../content/socialLinks";
 import { MdEmail } from "react-icons/md";
 import { GoArrowUpRight } from "react-icons/go";
 import CopyEmail from "./CopyEmail";

@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { Providers } from "./providers";
 import KProvider from "./components/common/KProvider";
+import ChatbotWeb3Form from "./components/common/ChatbotWeb3Form";
 import CommandBarInvokar from "./components/common/CommandBarInvokar";
 import LayoutWrapper from "./components/common/LayoutWrapper";
 
@@ -122,6 +123,7 @@ export default function RootLayout({ children }) {
             <LayoutWrapper>{children}</LayoutWrapper>
           </Providers>
           <CommandBarInvokar />
+          <ChatbotWeb3Form />
         </KProvider>
       </body>
     </html>

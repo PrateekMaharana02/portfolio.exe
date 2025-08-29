@@ -10,7 +10,7 @@ import {
   LuChevronLeft,
   LuChevronRight,
 } from "react-icons/lu";
-import projects from "@/app/content/projects";
+import projects from "../../content/projects";
 
 const ProjectShowcase = () => {
   const [currentIndex, setCurrentIndex] = useState(0);

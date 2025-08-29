@@ -11,7 +11,7 @@ import {
 import { useRouter } from "next/navigation";
 import { LuSearch, LuBook, LuUser, LuTarget, LuLayout, LuTrophy } from "react-icons/lu";
 import KResults from "./KResults";
-import socialLinks from "@/app/content/socialLinks";
+import socialLinks from "../../content/socialLinks";
 
 const KProvider = ({ children }) => {
   const router = useRouter();
