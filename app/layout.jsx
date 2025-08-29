@@ -113,7 +113,7 @@ export default function RootLayout({ children }) {
         <script
           defer
           src="https://analytics.umami.is/script.js"
-          data-website-id="58bd2a1c-b5e1-4842-b56b-9d1054f374c8"
+          data-website-id="e57f9362-d24c-4ddd-82d8-856e9a6f33ab"
         />
       </head>
       <body className={`${inter.className} bg-black text-white`}>
