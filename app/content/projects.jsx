@@ -3,10 +3,18 @@
 import Librarium from "../resources/images/project/Librarium.png";
 import Git from "../resources/images/project/git.png";
 import Course from "../resources/images/project/course.png";
-
+import Notezy from "../resources/images/project/notezy.png";
 import IdeaTracker from "../resources/images/project/idea.png";
 
 const projects = [
+  {
+    image: Notezy,
+    title: "Notezy",
+    description:
+      "Notezy isn't just another notes platform – it's built by students, for students who know the real struggle of keeping study materials organized.",
+    url: "https://notezyog.vercel.app/",
+    githubLink: "https://github.com/ArpitMaurya15/Notezy",
+  },
   {
     image: IdeaTracker,
     title: "BitBugFlex",
