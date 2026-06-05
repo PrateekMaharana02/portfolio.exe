@@ -39,7 +39,7 @@ const PersonalIntroduction = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.1 }}
             >
-              hey, I'm Arpit
+              hey, I'm Prateek
               <span className="animate-wave inline-block ml-2">👋</span>
             </motion.h1>
             <motion.p
@@ -48,7 +48,7 @@ const PersonalIntroduction = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
             >
-              Passionate  Developer from Ghaziabad, pushing the boundaries
+              Passionate  Developer from Odisha, pushing the boundaries
               of web technology to create immersive digital experiences.
             </motion.p>
           </div>

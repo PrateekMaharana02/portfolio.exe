@@ -33,7 +33,7 @@ const SpotifyNowPlaying = () => {
 
   return (
     <div className="flex flex-col items-end">
-          <span className="text-white/70 text-xs mb-5 font-bold">Arpit is listening to</span>
+          <span className="text-white/70 text-xs mb-5 font-bold">Prateek is listening to</span>
       <a
         href={song.songUrl}
         target="_blank"

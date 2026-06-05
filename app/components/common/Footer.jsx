@@ -49,11 +49,11 @@ const Footer = () => {
         </p>
         <div className="flex items-center gap-4">
           <Link
-            href="https://twitter.com/arpitkm15"
+            href="https://x.com/PrateekM2706"
             className="inline-flex items-center space-x-1 text-white/85 hover:text-[#FF3B00] transition-colors duration-200 group"
           >
             <span className="text-sm sm:text-base">
-              Brought to you by Arpit Maurya
+              Brought to you by Prateek.
             </span>
             <GoArrowUpRight
               size={16}

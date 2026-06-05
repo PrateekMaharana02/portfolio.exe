@@ -1,5 +1,5 @@
 import Uniqual from "../resources/images/works/Uniqual.png";
-import SolGuruz from "../resources/images/works/SolGuruz.png";
+import SolGuruz from "../resources/images/works/image.png";
 
 
 const works = [
@@ -12,9 +12,9 @@ const works = [
   },
   {
     image: SolGuruz,
-    companyName: "Maharaja Agarsain Public School",
+    companyName: "Vedic International School",
     role: "Till Class 12th",
-    startAt: "Mar 2010",
+    startAt: "Mar 2017",
     endAt: "May 2024",
   },
 ];

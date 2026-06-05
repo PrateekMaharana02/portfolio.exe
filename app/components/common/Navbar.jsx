@@ -111,7 +111,7 @@ const Navbar = () => {
                 ~
                 {pathname === "/" && (
                   <span className="ml-1 md:text-lg tracking-wide">
-                    arpitkm15
+                    prateekM02
                   </span>
                 )}
               </Link>

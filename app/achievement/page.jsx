@@ -2,7 +2,7 @@ import React from "react";
 import Achievements from "../components/achievement/Achievements";
 
 export const metadata = {
-  title: "Achievements - Arpit Maurya",
+  title: "Achievements - Prateek Maharana",
   description: "My achievements, certifications, and accomplishments in software development and technology.",
 };
 

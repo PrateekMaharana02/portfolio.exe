@@ -11,19 +11,19 @@ const socialLinks = [
   {
     id: "github",
     name: "Github",
-    url: "https://github.com/ArpitMaurya15/",
+    url: "https://github.com/PrateekMaharana02",
     icon: <LuGithub size={20} color="#FFFFFF" />,
   },
   {
     id: "linkedin",
     name: "LinkedIn",
-    url: "https://www.linkedin.com/in/arpit-maurya-27292133b/",
+    url: "https://www.linkedin.com/in/prateekm02/",
     icon: <FaLinkedinIn size={20} color="#FFFFFF" />,
   },
   {
     id: "twitter",
     name: "Twitter",
-    url: "https://twitter.com/arpitkm15",
+    url: "https://x.com/PrateekM2706",
     icon: <FaXTwitter size={20} color="#FFFFFF" />,
   },
   

@@ -21,10 +21,10 @@ const OverviewSection = () => {
   }, []);
 
   const handleDownloadClick = () => {
-    const cvUrl = "./Arpit-Resume.pdf";
+    const cvUrl = "./resume.pdf";
     const downloadLink = document.createElement("a");
     downloadLink.href = cvUrl;
-    downloadLink.download = "Arpit_CV.pdf";
+    downloadLink.download = "resume.pdf";
     downloadLink.click();
   };
 

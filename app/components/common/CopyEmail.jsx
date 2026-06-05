@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { MdEmail } from "react-icons/md";
 
-const EMAIL = "arpitkm2103@gmail.com";
+const EMAIL = "prateekmaharana02@gmail.com";
 
 const CopyEmail = () => {
   const [copied, setCopied] = useState(false);

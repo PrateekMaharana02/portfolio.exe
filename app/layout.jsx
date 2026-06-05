@@ -10,14 +10,14 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: {
-    default: "Arpit Maurya | Software Developer",
-    template: "%s | Arpit Maurya",
+    default: "Prateek Maharana | Software Developer",
+    template: "%s | Prateek Maharana",
   },
-  description: "Arpit Maurya is a passionate Software Developer and Web Engineer from India, specializing in building modern web applications with React, Next.js, and JavaScript. Explore projects, blogs, and achievements.",
+  description: "Prateek Maharana is a passionate Software Developer and Web Engineer from India, specializing in building modern web applications with React, Next.js, and JavaScript. Explore projects, blogs, and achievements.",
   openGraph: {
-    title: "Arpit Maurya",
+    title: "Prateek Maharana",
     description: "A passionate Software Developer from India.",
-    siteName: "Arpit Maurya",
+    siteName: "Prateek Maharana",
     url: "https://arpitkm.xyz",
     type: "website",
     images: [
@@ -25,20 +25,20 @@ export const metadata = {
         url: "/pfp.jpeg",
         width: 800,
         height: 600,
-        alt: "Arpit Maurya",
+        alt: "Prateek Maharana",
       },
     ],
     profile: {
-      firstName: "Arpit",
-      lastName: "Maurya",
-      username: "Arpit Maurya",
+      firstName: "Prateek",
+      lastName: "Maharana",
+      username: "Prateek Maharana",
       gender: "male",
     },
   },
   twitter: {
     card: "summary_large_image",
-    site: "@arpitkm15",
-    title: "Arpit Maurya",
+    site: "@PrateekM2706",
+    title: "Prateek MAharana",
     description: "A passionate Software Developer from India.",
     images: "/pfp.jpeg",
   },
@@ -48,8 +48,8 @@ export const metadata = {
   robots: "index,follow",
   canonical: "https://arpitkm.xyz",
   keywords:
-    "Arpit Maurya, Software Developer, Web Developer, Programmer, JavaScript, React, Next.js, Portfolio, India, Frontend Developer, Full Stack Developer, arpitkm, arpitkm.xyz, arpit maurya portfolio, arpit maurya developer, arpit maurya github, arpit maurya linkedin, arpit maurya projects, arpit maurya blog",
-  author: "Arpit Maurya",
+    "Prateek Maharana, Software Developer, Web Developer, Programmer, JavaScript, React, Next.js, Portfolio, India, Frontend Developer, Full Stack Developer, arpitkm, arpitkm.xyz, arpit maurya portfolio, arpit maurya developer, arpit maurya github, arpit maurya linkedin, arpit maurya projects, arpit maurya blog",
+  author: "Prateek Maharana",
 };
 
 export default function RootLayout({ children }) {
@@ -64,17 +64,17 @@ export default function RootLayout({ children }) {
           "url": "https://arpitkm.xyz",
           "image": "https://arpitkm.xyz/pfp.jpeg",
           "sameAs": [
-            "https://github.com/arpitkm15",
-            "https://www.linkedin.com/in/arpitkm15/",
-            "https://twitter.com/arpitkm15",
-            "https://www.instagram.com/arpitt_mauryaa"
+            "https://github.com/PrateekMaharana02",
+            "https://www.linkedin.com/in/prateekm02/",
+            "https://x.com/PrateekM2706",
+            "https://www.instagram.com/prateek_maharana_"
           ],
           "jobTitle": "Software Developer",
           "worksFor": {
             "@type": "Organization",
             "name": "Freelance / Open Source"
           },
-          "description": "Arpit Maurya is a passionate Software Developer and Web Engineer from India, specializing in React, Next.js, and modern web technologies."
+          "description": "Prateek Maharana is a passionate Software Developer and Web Engineer from India, specializing in React, Next.js, and modern web technologies."
         }) }} />
         <link
           rel="icon"

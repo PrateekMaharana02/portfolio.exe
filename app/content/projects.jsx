@@ -7,7 +7,7 @@ import Notezy from "../resources/images/project/notezy.png";
 import IdeaTracker from "../resources/images/project/idea.png";
 
 const projects = [
-  {
+  /*{
     image: Notezy,
     title: "Notezy",
     description:
@@ -47,7 +47,7 @@ const projects = [
       "Quickflow is an innovative platform designed to streamline your workflow, enhance productivity, and simplify project management.",
     url: "https://quickflow-lilac.vercel.app/",
     githubLink: "https://github.com/arpitmaurya15/Quickflow",
-  },
+  },*/
 ];
 
 export default projects;

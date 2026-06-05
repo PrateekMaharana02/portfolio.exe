@@ -6,7 +6,7 @@ import { FaTrophy, FaCertificate, FaMedal, FaAward, FaStar } from "react-icons/f
 import { GoArrowUpRight } from "react-icons/go";
 
 const achievements = [
-  {
+  /*{
     id: 1,
     icon: <FaTrophy className="text-yellow-500" size={24} />,
     title: "Odoo Hackathon 2025",
