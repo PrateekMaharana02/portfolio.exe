@@ -12,7 +12,7 @@ const works = [
   },
   {
     image: SolGuruz,
-    companyName: "Vedic International School",
+    companyName: "Vedic International School,Sambalpur",
     role: "Till Class 12th",
     startAt: "Mar 2017",
     endAt: "May 2024",
