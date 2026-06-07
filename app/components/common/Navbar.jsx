@@ -261,7 +261,7 @@ const Navbar = () => {
                 transition={{ delay: 0.4 }}
               >
                 <p className="text-white/80 text-sm">
-                  &copy; {new Date().getFullYear()} Arpit Maurya. All rights
+                  &copy; {new Date().getFullYear()} A. All rights
                   reserved.
                 </p>
               </motion.div>
