@@ -33,7 +33,7 @@ export default function ContactMe() {
         <div className="w-full max-w-lg bg-gradient-to-br from-[#18181b] via-[#23272f] to-[#111113] rounded-2xl shadow-2xl p-8 border border-[#222] mt-8 mb-8 sm:my-16">
           <h1 className="text-3xl font-bold text-center mb-6 text-white">Contact Me</h1>
           <form onSubmit={handleSubmit} className="space-y-5">
-            <input type="hidden" name="redirect" value="https://arpitkm.xyz/contactme?success=true" />
+            <input type="hidden" name="redirect" value="https://prateekmaharana.in/contactme?success=true" />
             <div>
               <label className="block text-white mb-1" htmlFor="name">Name</label>
               <input

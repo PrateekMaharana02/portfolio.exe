@@ -64,7 +64,7 @@ export default function ChatbotWeb3Form() {
                 
               </div>
               <form onSubmit={handleSubmit} className="space-y-5 mt-2">
-                <input type="hidden" name="redirect" value="https://arpitkm.xyz/contactme?success=true" />
+                <input type="hidden" name="redirect" value="https://prateekmaharana.in/contactme?success=true" />
                 <div>
                   <label className="block text-white mb-1 font-medium" htmlFor="name">Name</label>
                   <input

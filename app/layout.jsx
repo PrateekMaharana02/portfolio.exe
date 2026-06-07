@@ -18,7 +18,7 @@ export const metadata = {
     title: "Prateek Maharana",
     description: "A passionate Software Developer from India.",
     siteName: "Prateek Maharana",
-    url: "https://arpitkm.xyz",
+    url: "https://prateekmaharana02",
     type: "website",
     images: [
       {
@@ -42,13 +42,13 @@ export const metadata = {
     description: "A passionate Software Developer from India.",
     images: "/pfp.jpeg",
   },
-  instagram: {
-    url: "https://www.instagram.com/arpitt_mauryaa",
+  instagram: {        
+    url: "https://www.instagram.com/prateek_maharana_",
   },
   robots: "index,follow",
-  canonical: "https://arpitkm.xyz",
+  canonical: "https://prateekmaharana02.in",
   keywords:
-    "Prateek Maharana, Software Developer, Web Developer, Programmer, JavaScript, React, Next.js, Portfolio, India, Frontend Developer, Full Stack Developer, arpitkm, arpitkm.xyz, arpit maurya portfolio, arpit maurya developer, arpit maurya github, arpit maurya linkedin, arpit maurya projects, arpit maurya blog",
+    "Prateek Maharana, Software Developer, Web Developer, Programmer, JavaScript, React, Next.js, Portfolio, India, Frontend Developer, Full Stack Developer, prateekmaharana, prateekmaharana.in, prateek maharana portfolio, prateek maharana developer, prateek maharana github, prateek maharana linkedin, prateek maharana projects, prateek maharana blog",
   author: "Prateek Maharana",
 };
 
@@ -60,9 +60,9 @@ export default function RootLayout({ children }) {
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Person",
-          "name": "Arpit Maurya",
-          "url": "https://arpitkm.xyz",
-          "image": "https://arpitkm.xyz/pfp.jpeg",
+          "name": "Prateek Maharana",
+          "url": "https://prateekmaharana.in",
+          "image": "https://prateekmaharana.in/pfp.jpeg",
           "sameAs": [
             "https://github.com/PrateekMaharana02",
             "https://www.linkedin.com/in/prateekm02/",
